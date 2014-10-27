@@ -1,0 +1,11 @@
+﻿<Window x:Class="FunctionalFun.UI.GanttRowPanelExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:UI="clr-namespace:FunctionalFun.UI"
+    Title="GanttRowPanelExample" Height="300" Width="300">
+    <UI:GanttRowPanel MinDate="09:00" MaxDate="17:00">
+        <TextBlock Text="Work" UI:GanttRowPanel.StartDate="09:00" UI:GanttRowPanel.EndDate="12:00"/>
+        <TextBlock Text="Lunch" UI:GanttRowPanel.StartDate="12:00" UI:GanttRowPanel.EndDate="13:00"/>
+        <TextBlock Text="Work" UI:GanttRowPanel.StartDate="13:00" UI:GanttRowPanel.EndDate="17:00"/>
+    </UI:GanttRowPanel>
+</Window>
